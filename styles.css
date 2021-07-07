@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.wrapper .login {
+  width: 100%;
+  max-width: 900px;
+  background-color: #ffffff;
+  max-height: 600px;
+  -webkit-box-shadow: 0 5px 7px 0px rgba(1, 1, 0, 0.1);
+          box-shadow: 0 5px 7px 0px rgba(1, 1, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.wrapper .login .login-form {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  max-width: 50%;
+  background-color: #ffffff;
+  padding: 60px 45px;
+}
+
+.wrapper .login .login-form .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .login .login-form .logo img {
+  width: 35px;
+  height: 35px;
+  margin-top: -30px;
+  margin-left: -15px;
+}
+
+.wrapper .login .login-form .logo .logo-text {
+  margin-top: -32px;
+  margin-left: 25px;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.wrapper .login .login-form .logo .login-text {
+  font-family: "Playfair Display", serif;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.wrapper .login .login-form .logo .login-text .login-link {
+  text-decoration: none;
+  color: #b3b300;
+}
+
+.wrapper .login .login-form .login-title {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 2.5em;
+  margin-left: 30px;
+  margin-top: 22px;
+}
+
+.wrapper .login .login-form .form-wrapper {
+  margin-top: 5px;
+  margin-left: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper .login .login-form .form-wrapper .input {
+  height: 35px;
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 0.7em;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.wrapper .login .login-form .form-wrapper .input:focus {
+  background-color: #f2f2f2;
+}
+
+.wrapper .login .login-form .form-wrapper .actions-help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0 30px;
+  width: 80%;
+  font-size: 0.6em;
+}
+
+.wrapper .login .login-form .form-wrapper .actions-help .checkbox {
+  margin-right: 7px;
+  font-size: 0.6em;
+}
+
+.wrapper .login .login-form .form-wrapper .actions-help .action-link {
+  text-decoration: none;
+  color: #001a00;
+  margin-top: 3px;
+}
+
+.wrapper .login .login-form .form-wrapper .form-button {
+  background-color: #001a00;
+  color: #fafafa;
+  height: 40px;
+  width: 80%;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.wrapper .login .login-form .form-wrapper .form-button:hover {
+  background-color: #003300;
+}
+
+.wrapper .login .login-form .form-wrapper .form-text {
+  font-size: 0.7em;
+  padding-top: 20px;
+}
+
+.wrapper .login .login-form .form-wrapper .form-text .account-link {
+  text-decoration: none;
+  color: #b3b300;
+  font-weight: bolder;
+}
+
+.wrapper .login .login-form .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 0.5em;
+  margin-top: 115px;
+  width: 100%;
+}
+
+.wrapper .login .login-form .footer .footer-link {
+  color: #b3b300;
+  text-decoration: none;
+}
+
+.wrapper .login .login-form .footer .terms-link {
+  margin-left: 65px;
+  text-decoration: none;
+  color: #001a00;
+}
+
+.wrapper .login .side-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  max-width: 50%;
+  background-color: transparent;
+  background-image: url("./assets/Image.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .login .side-wrapper .side-text {
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  font-size: 1.3em;
+  margin-bottom: 7px;
+  font-family: "Playfair Display", serif;
+}
+
+.wrapper .login .side-wrapper .side-span {
+  color: #ffffff;
+  font-size: 0.6em;
+  font-family: "Inter", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
